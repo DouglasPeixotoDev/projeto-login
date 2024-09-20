@@ -9,13 +9,15 @@
     Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+    /* Configurações para tablet */
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     section#login {
         width: 80vw;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -39,23 +41,25 @@
 
     form > input[type=submit] {
         width: 50%;
-        margin-left: 115px;
+        margin: 0px auto;
+        margin-bottom: 5px;
     }
 
     form > a.botao {
         width: 50%;
-        margin-left: 115px;
+        margin: 0px auto;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {  /* Configurações para Desktop*/
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     
     section#login {
-        width: 950px
+        width: 950px;
+        height: 450px;
     }
 
     section#login > div#imagem {
@@ -75,11 +79,13 @@
 
     div#formulario > p {
         font-size: 1.2em;
+        padding: 20px;
     }
 
     form > input[type=submit] {
         width: 50%;
         margin: 0px auto;
+        margin-bottom: 5px;
     }
 
     form > a.botao {
